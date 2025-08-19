@@ -21,7 +21,7 @@ function QuantitySelector({ setCartCount }: QuantitySelectorProps) {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center lg:flex-row gap-4 mt-10 w-full">
+    <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start lg:flex-row gap-4 mt-10 w-full">
       {/* First row: quantity controls */}
       <div className="flex gap-2 items-center">
         <button

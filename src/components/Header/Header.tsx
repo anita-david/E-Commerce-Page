@@ -13,7 +13,7 @@ function Header({ cartCount, setCartCount }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex justify-between items-end gap-1 mt-10 mx-10 border-b border-gray-200">
+    <div className="flex justify-between items-end gap-1 mt-10 lg:mx-30 mx-10 border-b border-gray-200">
       {/* Left Section */}
       <div className="flex items-center gap-5 pb-10">
         {/* Hamburger menu - only visible on small screens */}

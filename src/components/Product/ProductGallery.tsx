@@ -29,7 +29,7 @@ function ProductGallery() {
   return (
     <div className="relative">
       {/* Main image */}
-      <div className="w-full lg:w-[400px] mt-6 lg:mt-13 lg:ml-40 rounded-2xl relative">
+      <div className="w-full lg:w-[400px] mt-6 lg:mt-13 lg:ml-20 rounded-2xl relative">
         <img
           className="rounded-2xl cursor-pointer"
           src={images[currentIndex]}
@@ -55,7 +55,7 @@ function ProductGallery() {
       </div>
 
       {/* Thumbnails - only on large screens */}
-      <div className="hidden lg:flex gap-6 mt-4 ml-50 pb-20 justify-center">
+      <div className="hidden lg:flex gap-6 mt-4 ml-20 pb-20 justify-center">
         {thumbnails.map((thumb, index) => (
           <img
             key={index}

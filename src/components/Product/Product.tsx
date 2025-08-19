@@ -7,7 +7,7 @@ interface ProductProps {
 
 function Product({ setCartCount }: ProductProps) {
   return (
-    <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 px-4 lg:px-20 mt-10">
+    <div className="flex flex-col lg:flex-row gap-10  px-4 lg:px-20 mt-10">
       {/* Left: Gallery */}
       <div className="flex-1 flex justify-center lg:justify-end">
         <ProductGallery />

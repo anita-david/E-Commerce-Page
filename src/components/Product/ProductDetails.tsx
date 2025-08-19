@@ -6,7 +6,7 @@ interface ProductDetailsProps {
 
 function ProductDetails({ setCartCount }: ProductDetailsProps) {
   return (
-    <div className="mt-6 lg:mt-25 lg:ml-10 px-4 lg:px-0">
+    <div className="mt-6 lg:mt-25 px-4 lg:px-0">
       <div className="uppercase text-gray-300 pb-4 font-bold text-xs tracking-widest">
         sneaker company
       </div>
