@@ -29,7 +29,7 @@ function ProductGallery() {
   return (
     <div className="relative">
       {/* Main image */}
-      <div className="w-full lg:w-[400px] mt-6 lg:mt-13 lg:ml-50 rounded-2xl relative">
+      <div className="w-full lg:w-[400px] mt-6 lg:mt-13 lg:ml-40 rounded-2xl relative">
         <img
           className="rounded-2xl cursor-pointer"
           src={images[currentIndex]}
